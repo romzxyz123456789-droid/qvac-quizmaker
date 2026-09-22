@@ -1,0 +1,20 @@
+{
+  "name": "qvac-quizmaker",
+  "version": "1.0.0",
+  "description": "Turn your own notes into a quiz, entirely on-device, using Tether's QVAC SDK.",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "qvac-quizmaker": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@qvac/sdk": "^0.19.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
