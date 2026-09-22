@@ -8,6 +8,8 @@ Point it at a `.txt` file of notes. It loads a small local LLM via QVAC (`loadMo
 
 **QVAC functions used:** `loadModel` and `completion` (streaming).
 
+![qvac-quizmaker running: generating a quiz from notes and scoring answers on-device](demo.png)
+
 ## Why I built it
 
 Flashcard apps make you write the questions yourself. This writes them for you, from notes you already have, without sending them anywhere.
@@ -20,7 +22,7 @@ Flashcard apps make you write the questions yourself. This writes them for you, 
 ## Install
 
 ```bash
-git clone https://github.com/Nafree1/qvac-quizmaker.git
+git clone https://github.com/romzxyz123456789-droid/qvac-quizmaker.git
 cd qvac-quizmaker
 npm install
 ```
